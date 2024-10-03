@@ -46,7 +46,7 @@
     ln -s /etc/nginx/sites-available/<your_site_name.conf> /etc/nginx/sites-enabled/<your_site_name.conf><br>
     <br>
 5.Set read permissions:<br>
-    sudo chmod -R 777 /etc/nginx/sites-enabled/<br>
+    sudo chmod -R 755 /etc/nginx/sites-enabled/<br>
 <br><br>
 <h3><a href="#">Source of the DB. You Can Import this in the Local Database</a></h3>
 <br>
