@@ -3,16 +3,20 @@
 #Linux System Setup<br>
     1. Download PHP<br>
         Ensure you have the required PHP version installed on your Linux system.<br>
+    <br>
     2. Create a Soft Link for the Project<br>
         Create a symbolic link (soft link) for easier project management.<br>
+        <br>
     3. Nginx Server Setup<br>
         Install Nginx and configure it for the webinar management system.<br>
+        <br>
 #Nginx Configuration<br>
     1.Create a configuration file in sites-available:<br>
         sudo nano /etc/nginx/sites-available/<your_site_name.conf><br>
-        sudo nano /etc/nginx/sites-available/<your_site_name.conf><br>
-    2.Example of the configuration file (<your_site_name.conf>):
-        sudo nano /etc/nginx/sites-available/<your_site_name.conf><br>
+        <br>
+    2.Example of the configuration file (<your_site_name.conf>):<br>
+        sudo nano /etc/nginx/sites-available/<your_site_name.conf><br><br>
+        
         server {
             listen 80;
             listen 443;
@@ -34,11 +38,12 @@
                 deny all;
             }
         }
-    <br>
     3.Set write permissions: <br>
-        sudo chmod -R 777 /etc/nginx/sites-enabled/<br>
+        sudo chmod -R 777 /etc/nginx/sites-enabled/ <br>
+        <br>
     4.Create a soft link for the configuration in sites-enabled: <br>
         ln -s /etc/nginx/sites-available/<your_site_name.conf> /etc/nginx/sites-enabled/<your_site_name.conf><br>
+        <br>
     5.Set read permissions:<br>
         sudo chmod -R 777 /etc/nginx/sites-enabled/<br>
 
