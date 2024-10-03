@@ -48,7 +48,7 @@
 5.Set read permissions:<br>
     sudo chmod -R 777 /etc/nginx/sites-enabled/<br>
 <br><br>
-<h3><a href="#">Import the Database</a></h3>
+<h3><a href="#">Source of the DB. You Can Import this in the Local Database</a></h3>
 <br>
 <br>
 #Database Structure<br>
