@@ -38,17 +38,19 @@
                 deny all;
             }
         }
-    3.Set write permissions: <br>
+    <br>
+3.Set write permissions: <br>
         sudo chmod -R 777 /etc/nginx/sites-enabled/ <br>
         <br>
-    4.Create a soft link for the configuration in sites-enabled: <br>
-        ln -s /etc/nginx/sites-available/<your_site_name.conf> /etc/nginx/sites-enabled/<your_site_name.conf><br>
-        <br>
-    5.Set read permissions:<br>
-        sudo chmod -R 777 /etc/nginx/sites-enabled/<br>
-
-#Import the Database<br>
-    <h3><a href="#">Import the Database</a></h3><br>
+4.Create a soft link for the configuration in sites-enabled: <br>
+    ln -s /etc/nginx/sites-available/<your_site_name.conf> /etc/nginx/sites-enabled/<your_site_name.conf><br>
+    <br>
+5.Set read permissions:<br>
+    sudo chmod -R 777 /etc/nginx/sites-enabled/<br>
+<br><br>
+<h3><a href="#">Import the Database</a></h3>
+<br>
+<br>
 #Database Structure<br>
 Tables:<br>
     - broadcast<br>
@@ -58,10 +60,11 @@ Tables:<br>
     - user_details<br>
     - webinar_details<br>
     - webinar_presenter_relationship<br>
-    - webinar_tag_relationship<br>
+    - webinar_tag_relationship<br><br>
 #Login to the Panel<br>
     - Username: sraza1<br>
     - Password: 12345<br>
+    <br>
 #Features of the Project<br>
     - User Authentication: Login to the panel with session storage after authentication.<br>
     - User Management: Add, edit, delete, and update user status.<br>
@@ -71,6 +74,7 @@ Tables:<br>
     - Presenter Management: Add, edit, delete, and update presenter details.<br>
     - Tag Management: Add, edit, and delete tags.<br>
     - Category Management: Add, edit, delete, and manage categories, including parent-child relationships.<br>
+    <br>
 #Additional Features<br>
     - Pagination: Implemented on listing pages.<br>
     - Logout: User logout functionality.<br>
