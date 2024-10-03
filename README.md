@@ -1,6 +1,6 @@
 <h1>Webinar Management System</h1>
 
-#Linux System Setup<br>
+<h3>Linux System Setup</h3><br>
     1. Download PHP<br>
         Ensure you have the required PHP version installed on your Linux system.<br>
     <br>
@@ -10,7 +10,7 @@
     3. Nginx Server Setup<br>
         Install Nginx and configure it for the webinar management system.<br>
         <br>
-#Nginx Configuration<br>
+<h3>Nginx Configuration</h3><br>
     1.Create a configuration file in sites-available:<br>
         sudo nano /etc/nginx/sites-available/<your_site_name.conf><br>
         <br>
@@ -51,7 +51,7 @@
 <h3><a href="#">Source of the DB. You Can Import this in the Local Database</a></h3>
 <br>
 <br>
-#Database Structure<br>
+<h3>Database Structure</h3><br>
 Tables:<br>
     - broadcast<br>
     - category<br>
@@ -61,11 +61,11 @@ Tables:<br>
     - webinar_details<br>
     - webinar_presenter_relationship<br>
     - webinar_tag_relationship<br><br>
-#Login to the Panel<br>
+<h3>Login to the Panel</h3><br>
     - Username: sraza1<br>
     - Password: 12345<br>
     <br>
-#Features of the Project<br>
+<h3>Features of the Project</h3><br>
     - User Authentication: Login to the panel with session storage after authentication.<br>
     - User Management: Add, edit, delete, and update user status.<br>
     - Subscriber Management: Add, edit, delete, and update subscriber status.<br>
@@ -75,7 +75,7 @@ Tables:<br>
     - Tag Management: Add, edit, and delete tags.<br>
     - Category Management: Add, edit, delete, and manage categories, including parent-child relationships.<br>
     <br>
-#Additional Features<br>
+<h3>Additional Features</h3><br>
     - Pagination: Implemented on listing pages.<br>
     - Logout: User logout functionality.<br>
     - Welcome Page: Custom welcome page.<br>
